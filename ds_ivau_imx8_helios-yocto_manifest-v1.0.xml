@@ -25,7 +25,7 @@
 
   <!-- Optional: Your custom BSP layer -->
   <!-- Replace this with your actual repo info -->
-  <project name="meta-iveia-imx-bsp" remote="dct" path="sources/meta-iveia-imx-bsp" revision="cc820052ec508ee1882e533ebecf0916275e4a0d"/>
+  <project name="meta-iveia-imx-bsp" remote="dct" path="sources/meta-iveia-imx-bsp" revision="scarthgap/release"/>
 
 </manifest>
 
