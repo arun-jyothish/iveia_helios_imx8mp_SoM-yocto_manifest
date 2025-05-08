@@ -1,0 +1,4 @@
+iveia-helios-imx8mp som yocto-bsp manifest
+
+$ repo init -u https://github.com/arun-jyothish/iveia_helios_imx8mp_som-yocto_manifest.git -b main -m ds_ivau_imx8_helios-yocto_manifest-v1.0.xml
+$ repo sync -j$(nproc) 
