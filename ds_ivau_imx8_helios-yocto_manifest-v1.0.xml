@@ -7,7 +7,7 @@
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="community"   fetch="https://github.com/Freescale"/>
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
-  <remote name="dct"       fetch="https://github.com/arun-jyothish/meta-iveia-bsp.git"/>
+  <remote name="dct"       fetch="https://github.com/arun-jyothish/"/>
 
   <!-- Core Poky and OpenEmbedded -->
   <project name="poky" remote="yp" path="sources/poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724"/>
