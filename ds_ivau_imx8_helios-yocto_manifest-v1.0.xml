@@ -7,6 +7,7 @@
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="community"   fetch="https://github.com/Freescale"/>
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
+  <remote name="dct"       fetch="git@github.com:arun-jyothish/meta-iveia-bsp.git"/>
 
   <!-- Core Poky and OpenEmbedded -->
   <project name="poky" remote="yp" path="sources/poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724"/>
@@ -24,7 +25,7 @@
 
   <!-- Optional: Your custom BSP layer -->
   <!-- Replace this with your actual repo info -->
-  <!-- <project name="meta-custom-som" remote="your-remote" path="sources/meta-custom-som" revision="your-branch"/> -->
+  <project name="meta-iveia-bsp" remote="dct" path="sources/meta-iveia-bsp" revision="5bb438a3c9adc7c2ee5175010c4157b15d0fad4e"/>
 
 </manifest>
 
